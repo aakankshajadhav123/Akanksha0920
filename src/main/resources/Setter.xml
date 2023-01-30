@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+  <!--  <bean id="p" class="com.Setter.Student">
+   <property name="name" value="akshu"></property>
+   <property name="city" value="karad"></property>
+   <property name="mobileNo" value="8785154221"></property>
+   
+   
+   
+   </bean> -->
+   
+    <bean id="d" class="com.Constructor.Employee">
+    <constructor-arg index="0" value="akshu"></constructor-arg>
+    <constructor-arg index="1" value="karad"></constructor-arg> 
+    <constructor-arg index="2" value="6487552111"></constructor-arg>
+    <constructor-arg index="3" value="781196"></constructor-arg>
+    </bean>
+    
+    
+  
+    
+    
+</beans>
